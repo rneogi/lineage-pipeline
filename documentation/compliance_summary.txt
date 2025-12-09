@@ -1,0 +1,58 @@
+======================================================================
+LINEAGE PIPELINE COMPLIANCE REPORT
+======================================================================
+
+Generated: 2025-12-07T21:30:57.699808
+Version: 4.2
+
+----------------------------------------------------------------------
+COMPLIANCE THRESHOLDS
+----------------------------------------------------------------------
+
+  Confidence Threshold:    90%
+  Minimum Precision:       90%
+  Minimum Recall:          90%
+  Minimum F1 Score:        90%
+  High Confidence Mapping: 90%
+
+  Mapping Type Confidence Levels:
+    - INSERT_SELECT: 95%
+    - UPDATE_SET: 90%
+    - UPDATE_SET_INFERRED: 80%
+    - NAME_MATCH_HEURISTIC: 70%
+
+----------------------------------------------------------------------
+VALIDATION RESULTS
+----------------------------------------------------------------------
+
+  TABLE LINEAGE:
+    Precision:       100.0%
+    Recall:          100.0%
+    F1 Score:        100.0%
+    Edge Count:      720
+    Meets Threshold: YES
+
+  ATTRIBUTE LINEAGE:
+    Precision:       100.0%
+    Recall:          100.0%
+    F1 Score:        100.0%
+    Edge Count:      84
+    Meets Threshold: YES
+
+  MAPPING QUALITY:
+    Total Mappings:       157
+    Avg Confidence:       93.0%
+    High Confidence (90%+): 110
+    By Type:
+      - NAME_MATCH_HEURISTIC: 47
+      - INSERT_SELECT: 110
+
+----------------------------------------------------------------------
+COMPLIANCE STATUS
+----------------------------------------------------------------------
+
+  Overall Compliant:           PASS
+  Table Lineage Compliant:     PASS
+  Attribute Lineage Compliant: PASS
+
+======================================================================

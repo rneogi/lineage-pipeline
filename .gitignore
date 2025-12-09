@@ -1,0 +1,63 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ChromaDB (rebuild from YAML)
+chroma_db/
+
+# Generated outputs (rebuild via pipeline)
+output_artifacts/
+intermediate/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+profiler_output.txt
+
+# Secrets (NEVER commit these)
+.env
+*.env
+secrets.json
+
+# Large input data (optional - use Git LFS if needed)
+# input_data/*.zip
+# input_data/*.xlsx
+
+# Batch files with API keys (recreate locally)
+run_chat.bat
+run_profiler.bat
+run_profiler2.bat
+
+# Windows reserved names / temp files
+nul
+_ul
+_ul-krishna
+top_tables.txt
+
+# Config with secrets
+config/
+
+# Claude settings (local)
+.claude/
+
+# Old/backup files with keys
+source_code/*.old.py
+documentation/demo_llm_chat.py
+
+# Input data (large files - copy separately or use Git LFS)
+input_data/

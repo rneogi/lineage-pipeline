@@ -1,0 +1,29 @@
+{
+    "sonarlint.pathToNodeExecutable": "",
+    "sonarlint.rules": {
+        "python:S1192": {
+            "level": "on"
+        },
+        "python:S107": {
+            "level": "on"
+        },
+        "python:S1481": {
+            "level": "on"
+        },
+        "python:S125": {
+            "level": "on"
+        }
+    },
+    "sonarlint.analyzerProperties": {
+        "sonar.python.version": "3.10"
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.enabled": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/venv": true,
+        "**/chroma_db": true
+    },
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe"
+}

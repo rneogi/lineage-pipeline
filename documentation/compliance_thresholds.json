@@ -1,0 +1,48 @@
+{
+  "document_type": "Compliance Thresholds",
+  "version": "4.2",
+  "generated_at": "2025-12-07T21:30:57.699808",
+  "thresholds": {
+    "confidence_threshold": 0.9,
+    "minimum_precision": 0.9,
+    "minimum_recall": 0.9,
+    "minimum_f1": 0.9,
+    "high_confidence_mapping": 0.9,
+    "mapping_type_priorities": {
+      "INSERT_SELECT": 0.95,
+      "UPDATE_SET": 0.9,
+      "UPDATE_SET_INFERRED": 0.8,
+      "NAME_MATCH_HEURISTIC": 0.7
+    }
+  },
+  "validation_results": {
+    "table_lineage": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "meets_threshold": true,
+      "edge_count": 720
+    },
+    "attribute_lineage": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "meets_threshold": true,
+      "edge_count": 84
+    },
+    "mapping_quality": {
+      "total": 157,
+      "by_type": {
+        "NAME_MATCH_HEURISTIC": 47,
+        "INSERT_SELECT": 110
+      },
+      "avg_confidence": 0.9299919261751757,
+      "high_confidence_count": 110
+    }
+  },
+  "compliance_status": {
+    "overall_compliant": true,
+    "table_lineage_compliant": true,
+    "attribute_lineage_compliant": true
+  }
+}
