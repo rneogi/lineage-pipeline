@@ -43,7 +43,16 @@ build.bat run
 | API keys | Add to `venv\Scripts\activate.bat` |
 | input_data/ | Copy from backup or original machine |
 | chroma_db/ | Auto-rebuilt when you run `build.bat run` |
+| lineage_rag.pkl | Auto-rebuilt when you run `build.bat run` |
 | output_artifacts/ | Auto-generated when you run pipeline |
+
+## Data Storage
+
+| File | Contains | Rebuilt By |
+|------|----------|------------|
+| chroma_db/ | Vector embeddings (ChromaDB) | `build.bat run` |
+| lineage_rag.pkl | Document metadata + RAG index | `build.bat run` |
+| demo.enriched.yaml | Knowledge Graph (YAML) | `build.bat run` |
 
 ## API Keys Required
 
